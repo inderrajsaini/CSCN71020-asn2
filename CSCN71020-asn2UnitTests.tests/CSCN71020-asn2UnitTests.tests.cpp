@@ -2,8 +2,8 @@
 #include "CppUnitTest.h"
 extern "C" int getPerimeter(int* length, int* width);
 extern "C" int getArea(int* length, int* width);
-extern "C" int setWidth(int input, int* width);
-extern "C" int setLength(int input, int* length);
+extern "C" void setWidth(int input, int* width);
+extern "C" void setLength(int input, int* length);
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
